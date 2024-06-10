@@ -1,0 +1,40 @@
+.demo-version-wrapper {
+  width: 100%;
+  height: 455px;
+  padding: 36px 40px 36px 40px;
+}
+
+.normalize-wrapper {
+  max-width: 1840px;
+  height: 455px;
+  margin: 0 auto;
+  display: flex;
+  background: #ebf0fa;
+}
+
+.monitor-wrapper {
+  height: 455px;
+  display: flex;
+  align-items: center;
+  background: #e8edff;
+}
+
+.monitor {
+  object-fit: fill;
+  width: 100%;
+  height: 100%;
+}
+
+@media (max-width: 1280px) and (min-width: 375px) {
+  .normalize-wrapper {
+    flex-direction: column;
+    padding-top: 24px;
+  }
+}
+
+@media (max-width: 475px) and (min-width: 375px) {
+  .normalize-wrapper {
+    width: 100%;
+    justify-content: center;
+  }
+}
