@@ -1,7 +1,8 @@
 import DemoVersion from "@widgets/DemoVersion/ui";
+import './style.css'
 
 document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
-  <div>
+  <main class="main">
   ${DemoVersion()}
-  </div>
+  </main>
 `
